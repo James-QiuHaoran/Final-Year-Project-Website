@@ -1,0 +1,34 @@
+/*!
+ * Author: Shunqi
+ */
+.team-photo{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    margin-bottom: 10px;
+}
+
+#contact p{
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.team-contact{
+    display: none;
+}
+
+.team-contact-mid{
+    display: none;
+}
+
+#progress {
+    /* background-image: url("../img/background2.jpg");
+    background-repeat: no-repeat; */
+    background-color: #456990;
+}
+
+@media (max-width: 770px){
+    .not-available{
+        display: none;
+    }
+}
