@@ -1,5 +1,5 @@
 /*!
- * Author: Shunqi
+ * Author: James Qiu
  */
 .team-photo{
     width: 160px;
@@ -22,8 +22,6 @@
 }
 
 #progress {
-    /* background-image: url("../img/background2.jpg");
-    background-repeat: no-repeat; */
     background-color: #456990;
 }
 
