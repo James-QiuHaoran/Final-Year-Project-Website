@@ -8,7 +8,7 @@
     <meta name="description" content="FYP Webpage">
     <meta name="author" content="James Qiu">
 
-    <title>Fast Blockchain on SGX-Facilitated Peer-to-Peer Network</title>
+    <title>Lark: Fast Blockchain on SGX-Facilitated Peer-to-Peer Network</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -65,10 +65,10 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Fast Blockchain on SGX-Facilitated Peer-to-Peer Network</h1>
+          <h1 id="homeHeading">Lark: Fast Blockchain on SGX-Facilitated Peer-to-Peer Network</h1>
           <hr>
           <p>
-            A short description.
+            Project Lark includes a new peer-to-peer network protocol that improves communication performance among peers and an implementation of fast, consistent blockchain system on top of this P2P network.
           </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
@@ -82,9 +82,9 @@
             <h2 class="section-heading text-white">Introduction</h2>
             <hr class="light">
             <p class="text-faded">
-              An introduction
+              Blockchain is essentially a public decentralized ledger that securely records transactions between parties anonymously. The key component is to reach agreement among a group of nodes, i.e., consensus. However, based on Peer-to-Peer network, the broadcast operation is inefficient. Intel SGX is a technology which protects code and execution integrity from hardware perspective. It provides chance to modify the network protocol to reduce as many messages as possible and meanwhile retain the properties required by the blockchain application on top of the network. This project is going to target this weakness of blockchain, to design a new protocol in the Peer-to-Peer network which achieves effciency and do not sacrifice any security or any other required properties.
             </p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="https://github.com/James-QiuHaoran">Learn More</a>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="https://github.com/James-QiuHaoran/fast-blockchain-on-SGX-facilitated-P2P-network">Learn More about Lark</a>
           </div>
         </div>
       </div>
@@ -94,10 +94,36 @@
       <div class="container text-center">
         <h2 class="section-heading">Methodology</h2>
         <hr>
-        
-        <p>
-          This is the methodology.
-        </p>
+      </div>
+      <div class="container">
+      	<div class="wrapper">
+	        <div class="box">
+	            <div class="text"><h5>Protocol Design</h5>
+	            <hr style="border-color: white">
+		        <p>
+		    		We are going to find what researchers were doing on improving the performance of peer-to-peer network and figure our what is preventing them from making it more efficient. After having done literature review about peer-to-peer network and Intel SGX, we can think about how to make use of Intel SGX to mitigate the problem unsolved.
+		    	</p>
+	    	</div>
+	        </div>
+	        <div class="middle"></div>
+	        <div class="box">
+	            <div class="text"><h5>System Implementation</h5>
+            	<hr style="border-color: white">
+		        <p>
+		    		We will first do some research on existing blockchain systems such as GEEC and extract the peer-to-peer network layer from them. Modifying the network layer and then integrate it with the original system.
+		    	</p>
+		    	</div>
+	        </div>
+	        <div class="middle"></div>
+	        <div class="box">
+	            <div class="text"><h5>System Evaluation</h5>
+            	<hr style="border-color: white">
+		        <p>
+		    		After having the system working, we are going to evaluate our system compared to other existing blockchain systems on running the same applications like database, cryptocurrency, etc..
+		    	</p>
+			    </div>
+	        </div>
+    	</div>	
       </div>
     </section>
 
@@ -175,7 +201,7 @@
         <h2 class="section-heading">Results and Deliverables</h2>
         <hr>
         <p>
-          Description of the results and deliverables.
+          This project will deliver a new protocol for Peer-to-Peer network which improves the performance of the communication among peers in the network such as the broadcast operation. The protocol should not sacrifice any property in the original protocol needed in the blockchain. Based on the protocol, this project will also deliver a whole blockchain system, implementing the protocol on some existing blockchain systems like GEEC and ByzCoin. The project will also give an evaluation on the performance of various blockchain systems in which it is expected to have higher efficiency.
         </p>
       </div>
     </section>

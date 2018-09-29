@@ -25,8 +25,44 @@
     background-color: #456990;
 }
 
+.box{
+    background-color: #F05F40 !important;
+    display: table-cell;
+    border-radius:5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.text{
+    color:white;
+    text-align:center;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    width: 3%;
+}
+
 @media (max-width: 770px){
     .not-available{
         display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        display: inline-block;
+    }
+
+    .box {
+        display: inline-block;
     }
 }
