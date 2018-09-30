@@ -14,7 +14,7 @@
 }
 
 .team-contact{
-    display: none;
+    /*display: none;*/
 }
 
 .team-contact-mid{
@@ -56,6 +56,7 @@
         display: none;
     }
 }
+<<<<<<< HEAD
 
 @media (max-width: 900px) {
     .wrapper {
@@ -66,3 +67,5 @@
         display: inline-block;
     }
 }
+=======
+>>>>>>> 0c80e44b1a41882ff7704569e03adc72d26e5e65
