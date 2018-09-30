@@ -10,7 +10,8 @@
  body,
  html {
    width: 100%;
-   height: 100%; }
+   height: 100%; 
+ }
  
  body {
    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
@@ -211,7 +212,8 @@
    position: relative;
    display: block;
    max-width: 650px;
-   margin: 0 auto; }
+   margin: 0 auto; 
+ }
    .portfolio-box .portfolio-box-caption {
      position: absolute;
      bottom: 0;
@@ -219,7 +221,7 @@
      width: 100%;
      height: 100%;
      text-align: center;
-     opacity: 1;
+     opacity: 0;
      color: white;
      background: rgba(240, 95, 64, 0.9);
      -webkit-transition: all 0.2s;
