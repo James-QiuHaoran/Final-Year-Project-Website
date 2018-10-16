@@ -2,7 +2,7 @@
 Website for our final year project
 Website can be accessed here: https://i.cs.hku.hk/fyp/2018/fyp18006/
 
-Team member: Haoran Qiu, Tao Ji
+Team member: Haoran Qiu, Tao Ji<br>
 Supervisor: Dr. Heming Cui
 
 ## Introduction
